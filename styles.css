@@ -376,6 +376,12 @@ section {
     height: 200px;
     object-fit: cover;
     background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.event-image:hover {
+    opacity: 0.9;
 }
 
 .event-content {
@@ -708,6 +714,74 @@ footer {
 .social-btn svg {
     width: 24px;
     height: 24px;
+}
+
+/* ==========================================
+   LIGHTBOX
+   ========================================== */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+    animation: zoomIn 0.3s;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: var(--white);
+    color: var(--dark-color);
+    border: none;
+    font-size: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    line-height: 1;
+    padding: 0;
+}
+
+.lightbox-close:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: rotate(90deg);
 }
 
 .footer-bottom {
