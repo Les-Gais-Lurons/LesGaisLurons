@@ -117,7 +117,9 @@ function displayEvents() {
     
     eventsList.innerHTML = events.map(event => `
         <div class="event-card">
-            <div class="event-image" style="${event.image ? `background-image: url('${event.image}'); background-size: cover; background-position: center;` : ''}"></div>
+            <div class="event-image" style="${event.image ? `background-image: url('${event.image}'); background-size: cover; background-position: center;` : ''}" 
+                 ${event.image ? `onclick="openLightbox('${event.image}')"` : ''}>
+            </div>
             <div class="event-content">
                 <span class="event-date">📅 ${event.date}</span>
                 <h3 class="event-title">${event.title}</h3>
@@ -127,6 +129,46 @@ function displayEvents() {
         </div>
     `).join('');
 }
+
+// ==========================================
+// LIGHTBOX POUR LES IMAGES
+// ==========================================
+
+function openLightbox(imageSrc) {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    
+    lightboxImg.src = imageSrc;
+    lightbox.classList.add('active');
+    
+    // Empêcher le scroll du body
+    document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    lightbox.classList.remove('active');
+    
+    // Réactiver le scroll du body
+    document.body.style.overflow = 'auto';
+}
+
+// Fermer la lightbox avec le bouton
+document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+
+// Fermer la lightbox en cliquant en dehors de l'image
+document.getElementById('lightbox').addEventListener('click', (e) => {
+    if (e.target.id === 'lightbox') {
+        closeLightbox();
+    }
+});
+
+// Fermer la lightbox avec la touche Échap
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeLightbox();
+    }
+});
 
 // ==========================================
 // FAQ ACCORDION
