@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Gais Lurons - Grossouvre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23f4e4c1' width='200' height='200'/%3E%3Ctext x='100' y='100' text-anchor='middle' dominant-baseline='middle' font-size='60' font-weight='bold' fill='%23d63031'%3EGAIS%3C/text%3E%3Ctext x='100' y='140' text-anchor='middle' font-size='40' font-weight='bold' fill='%23fdcb6e'%3ELURONS%3C/text%3E%3C/svg%3E" alt="Les Gais Lurons">
+                        <span>Les Gais Lurons</span>
+                    </div>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                        <li><a href="#evenements" class="nav-link">Événements</a></li>
+                        <li><a href="#qui-sommes-nous" class="nav-link">Qui sommes-nous</a></li>
+                        <li><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Les Gais Lurons</h1>
+                <p class="hero-subtitle">Grossouvre</p>
+                <p class="hero-description">Des événements festifs et conviviaux pour rassembler petits et grands autour de la Communauté de Communes des 3 Provinces</p>
+                <div class="hero-buttons">
+                    <a href="#evenements" class="btn btn-primary">Nos événements</a>
+                    <a href="#contact" class="btn btn-secondary">Nous contacter</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Notre association</h2>
+                <p class="lead">Notre association a pour vocation d'organiser des événements festifs et conviviaux autour de la Communauté de Communes des 3 Provinces.</p>
+                <p>Nous rassemblons petits et grands à travers des manifestations locales qui célèbrent la joie de vivre, la culture et le partage.</p>
+                <div class="about-buttons">
+                    <a href="https://www.paypal.com/donate/?hosted_button_id=MWVD23FWYV7SN" target="_blank" class="btn btn-donation">
+                        <span>❤️</span> Faire un don
+                    </a>
+                    <a href="#contact" class="btn btn-volunteer">
+                        <span>🤝</span> Devenir bénévole
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Événements Section -->
+    <section id="evenements" class="events">
+        <div class="container">
+            <h2 class="section-title">Découvrez nos événements</h2>
+            <p class="section-subtitle">Chaque événement est une occasion de se retrouver, de partager un moment unique et de faire vivre notre territoire.</p>
+            
+            <div id="eventsList" class="events-grid">
+                <!-- Les événements seront chargés ici par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Valeurs Section -->
+    <section id="qui-sommes-nous" class="values">
+        <div class="container">
+            <h2 class="section-title">Nos valeurs</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🎉</div>
+                    <h3>Des événements qui rassemblent</h3>
+                    <p>Nous créons des moments sur mesure, pensés pour rassembler les habitants et faire vivre notre territoire. Chaque manifestation vise à renforcer les liens, encourager la convivialité et laisser un souvenir positif à tous les participants.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">👥</div>
+                    <h3>Une équipe engagée à vos côtés</h3>
+                    <p>Notre équipe veille au bon déroulement de chaque événement, avec réactivité et bienveillance. Nous sommes là pour anticiper, accompagner et faire face aux imprévus avec le sourire.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Des partenariats qui font la différence</h3>
+                    <p>Grâce à des collaborations locales et exclusives, nous enrichissons nos événements et offrons à notre territoire des expériences uniques, accessibles et mémorables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Questions fréquentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Qui peut participer à nos événements ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nos événements sont ouverts à tous : habitants de la Communauté de Communes des 3 Provinces et visiteurs de passage. Que vous veniez en famille, entre amis ou en solo, vous êtes les bienvenus pour partager un moment convivial.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Comment être informé des prochaines manifestations ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Vous pouvez consulter notre agenda en ligne régulièrement ou nous suivre sur les réseaux sociaux. Nous mettons à jour nos informations dès qu'un nouvel événement est prévu.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Est-il possible de devenir bénévole ou de proposer une idée d'animation ?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolument ! Nous accueillons avec plaisir toute personne souhaitant s'impliquer ou partager une idée. Il suffit de nous contacter via le formulaire en ligne ou lors de nos événements. L'association fonctionne grâce à l'énergie collective !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Nos coordonnées</h3>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <strong>Adresse</strong>
+                            <p>13 Rue Principal<br>18600 Grossouvre, France</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div>
+                            <strong>Téléphone</strong>
+                            <p><a href="tel:+33629745475">06 29 74 54 75</a></p>
+                            <p><a href="tel:+33788708500">07 88 70 85 00</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <strong>Email</strong>
+                            <p><a href="mailto:zack140821@francemel.fr">zack140821@francemel.fr</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="contactForm" action="https://formsubmit.co/zack140821@francemel.fr" method="POST">
+                        <!-- Configuration FormSubmit -->
+                        <input type="hidden" name="_subject" value="Nouveau message depuis le site Les Gais Lurons">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="box">
+                        <input type="text" name="_honey" style="display:none">
+                        
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" id="phone" placeholder="Votre téléphone (optionnel)">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                    <p class="form-note">💡 Vous recevrez un email de confirmation après l'envoi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Les Gais Lurons</h4>
+                    <p>Association festive et conviviale de Grossouvre</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#evenements">Événements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>13 Rue Principal<br>18600 Grossouvre</p>
+                    <p>📱 <a href="tel:+33629745475">06 29 74 54 75</a></p>
+                    <p>📱 <a href="tel:+33788708500">07 88 70 85 00</a></p>
+                    <p>✉️ <a href="mailto:zack140821@francemel.fr">Zack140821@francemel.fr</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <a href="https://www.facebook.com/profile.php?id=61564588143293" target="_blank" class="social-btn facebook-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                        <span>Facebook</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Les Gais Lurons - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
