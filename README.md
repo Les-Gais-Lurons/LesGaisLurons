@@ -12,9 +12,9 @@
 
 ## 🌐 Accès Rapide
 
-**🔗 Lien court :** [bit.ly/LesGaisLurons](https://bit.ly/LesGaisLurons)
+**🔗 Lien court :** [bit.ly/lesgaislurons](https://bit.ly/lesgaislurons)
 
-**🌍 URL complète :** [votre-username.github.io/les-gais-lurons](https://votre-username.github.io/les-gais-lurons)
+**🌍 URL complète :** [Les-Gais-Lurons.github.io/LesGaisLurons](https://Les-Gais-Lurons.github.io/LesGaisLurons)
 
 ---
 
@@ -77,7 +77,7 @@ LesGaisLurons/
 ### Cloner le Projet
 
 ```bash
-git clone https://github.com/Zack140821/LesGaisLurons.git
+git clone https://github.com/Les-Gais-Lurons/LesGaisLurons.git
 cd LesGaisLurons
 ```
 
@@ -210,6 +210,7 @@ Pour plus de détails, consultez le fichier [LICENSE](LICENSE).
 - **Développement :** [![GitHub](https://img.shields.io/badge/Développeur-@Zack1408-181717?logo=github)](https://github.com/Zack1408)
 - **Design :** Inspiré du logo de l'association
 - **Hébergement :** GitHub Pages
+- **Lien court :** Bit.ly
 - **Service Email :** FormSubmit.co
 
 ---
