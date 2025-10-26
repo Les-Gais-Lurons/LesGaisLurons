@@ -232,6 +232,6 @@ Besoin d'aide ? Vous avez des questions ?
 
 ⭐ Si vous aimez ce projet, n'hésitez pas à lui donner une étoile sur GitHub !
 
-[🌐 Visiter le Site](https://bit.ly/LesGaisLurons) • [📘 Facebook](https://www.facebook.com/profile.php?id=61578908101018) • [📧 Contact](mailto:zack140821@francemel.fr)
+[🌐 Visiter le Site](https://bit.ly/lesgaislurons) • [📘 Facebook](https://www.facebook.com/profile.php?id=61578908101018) • [📧 Contact](mailto:zack140821@francemel.fr)
 
 </div>
