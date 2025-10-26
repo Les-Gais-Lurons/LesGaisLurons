@@ -208,6 +208,7 @@ Pour plus de détails, consultez le fichier [LICENSE](LICENSE).
 
 ## 🎖️ Crédits
 
+- **Organisation :** [![GitHub](https://img.shields.io/badge/Organisation-@Les--Gais--Lurons-181717?logo=github)](https://github.com/Les-Gais-Lurons)
 - **Développement :** [![GitHub](https://img.shields.io/badge/Développeur-@Zack1408-181717?logo=github)](https://github.com/Zack1408)
 - **Design :** Inspiré du logo de l'association
 - **Hébergement :** GitHub Pages
