@@ -1,5 +1,6 @@
 # 🎉 Les Gais Lurons - Site Web Officiel
 
+[![GitHub](https://img.shields.io/badge/Développeur-@Zack1408-181717?logo=github)](https://github.com/Zack1408)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222222?logo=github)](https://pages.github.com/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
